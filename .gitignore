@@ -1,0 +1,11 @@
+# build output (a build with your games in it holds your ROMs: never commit it)
+build/
+t32/build/
+*.o
+*.elf
+# no ROMs, ever: only our own test cartridge
+*.nes
+!/testcart.nes
+__pycache__/
+*.dSYM/
+.DS_Store
